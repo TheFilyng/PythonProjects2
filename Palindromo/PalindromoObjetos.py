@@ -7,7 +7,7 @@ class Palabra():
         return self.cadena
 
     def invertirCadena(self):
-        print(self.cadena[::-1])
+        return(self.cadena[::-1])
 
     def esPalindromo(self):
         if self.getCadena() == self.invertirCadena():
