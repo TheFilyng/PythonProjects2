@@ -15,5 +15,5 @@ class Palabra():
         else:
             print("No es palindromo")
 
-c = Palabra("radar")
+c = Palabra("dabale arroz a la zorra el abad")
 c.esPalindromo()
